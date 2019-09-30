@@ -1,0 +1,15 @@
+vi:
+
+  static_pages:
+       
+    home:
+      home: "Ứng dụng mẫu"
+      p1_home: "Đây là trang chủ cho ứng dụng mẫu %{href}."
+      p2_home: "Ruby on Rails Tutorial"
+
+
+    help:
+      help: "trợ giúp"
+      p1_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại% {href1}. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem %{href2}."
+      p2_help: "Trang trợ giúp của Rails Tutorial"
+      p3_help: "Ruby on Rails Tutorial"

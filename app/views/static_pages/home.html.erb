@@ -1,0 +1,10 @@
+<% provide(:title,"home") %>
+ <h2>
+   <%= link_to "English", locale:"en" %>
+   <%= link_to "Vietnamese", locale:"vi" %>
+ </h2>
+
+<h1><%= t".home" %></h1>
+<p>
+  <%= t(".p1_home",href: link_to(t(".p2_home"), "https://www.railstutorial.org")).html_safe %>
+</p>
