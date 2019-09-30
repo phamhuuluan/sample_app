@@ -1,11 +1,9 @@
-<% provide(:title,"home") %>
+<% provide :title, t(".help") %>
  <h2>
-   <%= link_to "English", locale:"en" %>
-   <%= link_to "Vietnamese", locale:"vi" %>
+ <%= link_to t(".English1"), locale:"en" %>
+ <%= link_to t(".Vietnamese1"), locale:"vi" %>
  </h2>
-    <h1> <%= t ".title_help" %> </h1>
-    <p>
-     <%= t ".p1_help" %>
-    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    <%= t ".p2_help" %>
-     </p>
+    <h1> <%= t ".help" %> </h1>
+  <p>
+    <%= t(".p1_help", href1: link_to(t(".p2_help"), Settings.help_ruby), href2: link_to(t(".p3_help"), Settings.book_ruby)).html_safe %>
+  </p>
