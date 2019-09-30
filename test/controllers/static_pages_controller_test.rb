@@ -1,5 +1,4 @@
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-
   test "should get root" do
     get FILL_IN
     assert_response FILL_IN

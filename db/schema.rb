@@ -10,7 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2019_09_24_203505) do
 
   create_table "users", force: :cascade do |t|
@@ -19,8 +18,5 @@ ActiveRecord::Schema.define(version: 2019_09_24_203505) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-=======
-ActiveRecord::Schema.define(version: 0) do
->>>>>>> 5207180... charterChapter 3: Mostly static pages
 
 end

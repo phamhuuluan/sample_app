@@ -16,9 +16,10 @@
 .byebug_history
 
 /config/master.key
-
 /public/packs
 /public/packs-test
 /node_modules
+
+config/database.yml
 
 /test/*
