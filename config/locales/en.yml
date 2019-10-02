@@ -1,16 +1,21 @@
 en:
  
   static_pages:
-       
     home:
       home: "Sample App"
       p1_home: "This is the home page for the %{href} sample application."
       p2_home: "Ruby on Rails Tutorial"
-
+      English: "English"
+      Vietnamese: "Vietnamese"
 
     help:
       help: "Help"
       p1_help: "Get help on the Ruby on Rails Tutorial at the %{href1}. To get help on this sample app, see the %{href2}."
       p2_help: "Rails Tutorial help page"
       p3_help: "Ruby on Rails Tutorial"
-   
+      English1: "English"
+      Vietnamese1: "Vietnamese"
+    
+  helpers: 
+    application:
+      base_title: " Ruby on Rails Tutorial Sample App"
