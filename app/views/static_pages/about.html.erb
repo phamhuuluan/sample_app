@@ -1,15 +1,11 @@
-<% provide(:title, "About") %>
-    <h1>About</h1>
-    <p>
-      The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
-      Tutorial</em></a>, part of the
-      <a href="https://www.learnenough.com/">Learn Enough</a> family of
-      tutorials, is a
-      <a href="https://www.railstutorial.org/book">book</a> and
-      <a href="https://screencasts.railstutorial.org/">screencast series</a>
-      to teach web development with
-      <a href="https://rubyonrails.org/">Ruby on Rails</a>.
-      This is the sample app for the tutorial.
+<% provide :title, t(".about") %>
+<h1><%= t".about" %></h1>
+<p>
+    <%= t(".about_infor", href5: link_to(t(".about_home"), Settings.static_pages.help_ruby), 
+                          href6: link_to(t(".about_learn"), Settings.static_pages.book_ruby), 
+                          href7: link_to(t(".about_book"), Settings.static_pages.book_ruby), 
+                          href8: link_to(t(".about_screencast"), Settings.static_pages.book_ruby), 
+                          href9: link_to(t(".about_ruby"), Settings.static_pages.book_ruby)).html_safe %>
     </p>
   </body>
 </html>

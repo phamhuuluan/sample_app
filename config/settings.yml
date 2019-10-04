@@ -1,3 +1,11 @@
-home_ruby: "https://www.railstutorial.org/"
-help_ruby: "https://www.railstutorial.org/help"
-book_ruby: "https://www.railstutorial.org/book"
+static_pages:
+    home_ruby: "https://www.railstutorial.org/"
+    help_ruby: "https://www.railstutorial.org/help"
+    book_ruby: "https://www.railstutorial.org/book"
+    contact_page: "https://www.railstutorial.org/contact"
+      
+footer:
+  home_ruby: "https://www.railstutorial.org/"
+  michaelhartl: "http://www.michaelhartl.com/"
+  news: "http://news.railstutorial.org/"
+  
