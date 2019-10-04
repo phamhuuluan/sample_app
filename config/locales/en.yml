@@ -2,9 +2,10 @@ en:
  
   static_pages:
     home:
-      home: "Sample App"
+      home: "Welcome to the Sample App"
       p1_home: "This is the home page for the %{href} sample application."
       p2_home: "Ruby on Rails Tutorial"
+      sign_up: "Sign up now!"
       English: "English"
       Vietnamese: "Vietnamese"
 
@@ -15,7 +16,35 @@ en:
       p3_help: "Ruby on Rails Tutorial"
       English1: "English"
       Vietnamese1: "Vietnamese"
-    
-  helpers: 
+ 
+    about:
+     about: "About"
+     about_infor: "The %{href5}, part of the %{href6} family of tutorials, is a %{href7}and %{href8} to teach web development with %{href9}. This is the sample app for the tutorial."
+     about_home: " Ruby on Rails Tutorial"
+     about_learn: "Learn Enough"
+     about_book: "book"
+     about_screencast: "screencast series"
+     about_ruby: Ruby on Rails
+
+    contact:
+      contact: "Contact"
+      contact_info: "Contact the Ruby on Rails Tutorial about the sample app at the %{href10}"
+      contact_page: "contact page."
+
+  layouts: 
     application:
       base_title: " Ruby on Rails Tutorial Sample App"
+
+    header:
+      logo1: "sample app"
+      Home1: "Home"
+      Help1: "Help"
+      Log_in: "Log in"
+
+    footer:
+      About: "About"
+      Contact: "Contact"
+      News: "News"
+      infor: "The %{href3} by %{href4}"
+      book: " Ruby on Rails Tutorial"
+      author: "Michael Hartl"

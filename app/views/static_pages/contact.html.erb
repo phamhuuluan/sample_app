@@ -1,0 +1,5 @@
+<% provide :title, t(".contact") %>
+<h1><%=t".contact" %></h1>
+<p>
+<%= t(".contact_info", href10: link_to(t(".contact_page"), Settings.static_pages.contact_page)).html_safe %>
+</p>

@@ -3,9 +3,10 @@ vi:
   static_pages:
        
     home:
-      home: "Ứng dụng mẫu"
+      home: "Chào mừng bạn đến với Ứng dụng mẫu"
       p1_home: "Đây là trang chủ cho ứng dụng mẫu %{href}."
       p2_home: "Ruby on Rails Tutorial"
+      sign_up: "Đăng ký ngay"
       English: "Tiếng Anh "
       Vietnamese: "Tiếng Việt"
 
@@ -16,3 +17,35 @@ vi:
       p3_help: "Ruby on Rails Tutorial"
       English1: "Tiếng Anh "
       Vietnamese1: "Tiếng Việt"
+    
+    about:
+      about: "Thông tin về tôi"
+      about_infor: "Các %{href5}, Một Phần của %{href6} gia đình hướng dẫn, là một %{href7} và %{href8} để dạy phát triển web %{href9}. Đây là hướng dẫn cho ứng dụng mẫu."
+      about_home: " Ruby on Rails Tutorial"
+      about_ learn: "Learn Enough"
+      about_book: "book"
+      about_ screencast: "screencast series"
+      about_ruby: Ruby on Rails
+
+    contact:
+      contact: "Liên hệ"
+      contact_info: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại %{href10}"
+      contact_page: "contact page."
+
+  layouts: 
+    application:
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      
+    header:
+      logo1: "Ừng dụng mẫu"
+      Home1: "Trang chủ"
+      Help1: "Trợ giúp"
+      Log_in: "Đăng Nhập"
+
+    footer:
+      About: "Thông tin về tôi"
+      Contact: "Liên hệ"
+      News: "Tin tức"
+      infor: "Hướng dẫn về %{href3} của %{href4}"
+      book: " Ruby on Rails "
+      author: "Michael Hartl"

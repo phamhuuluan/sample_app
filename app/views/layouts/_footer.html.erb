@@ -1,0 +1,12 @@
+<footer class="footer">
+  <small>
+  <%= t(".infor", href3: link_to(t(".book"), Settings.footer.home_ruby), href4: link_to(t(".author"), Settings.footer.michaelhartl)).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".About"), about_path %></li>
+      <li><%= link_to t(".Contact"), contact_path %></li>
+      <li><%= link_to t(".News"), Settings.footer.news %></li>
+    </ul>
+  </nav>
+</footer>

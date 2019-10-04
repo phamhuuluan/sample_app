@@ -5,5 +5,5 @@
  </h2>
     <h1> <%= t ".help" %> </h1>
   <p>
-    <%= t(".p1_help", href1: link_to(t(".p2_help"), Settings.help_ruby), href2: link_to(t(".p3_help"), Settings.book_ruby)).html_safe %>
+    <%= t(".p1_help", href1: link_to(t(".p2_help"), Settings.static_pages.help_ruby), href2: link_to(t(".p3_help"), Settings.static_pages.book_ruby)).html_safe %>
   </p>
