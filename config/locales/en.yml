@@ -48,3 +48,8 @@ en:
       infor: "The %{href3} by %{href4}"
       book: " Ruby on Rails Tutorial"
       author: "Michael Hartl"
+  users:
+    new: 
+      sign_up: "sign up"
+      p_signup: "This will be a signup page for new users."
+      
