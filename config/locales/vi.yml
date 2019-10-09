@@ -41,6 +41,11 @@ vi:
       Home1: "Trang chủ"
       Help1: "Trợ giúp"
       Log_in: "Đăng Nhập"
+      Users: "Người dùng"
+      Account: "Tài khoản"
+      Profile: "Hồ sơ"
+      Settings: "Cài đặt"
+      Log_out: "Đăng Xuất"
 
     footer:
       About: "Thông tin về tôi"
@@ -49,6 +54,16 @@ vi:
       infor: "Hướng dẫn về %{href3} của %{href4}"
       book: " Ruby on Rails "
       author: "Michael Hartl"
+  sessions:
+    new:
+      log_in: "Đăng Nhập"
+      email: "E-Mail" 
+      password: "Mật Khẩu "
+      New_user: "Nguời Dùng Mới"
+      sign_up: "Đăng ký ngay!"
+    create:  
+      email_pass: "Tài Khoản / Mật Khẩu không chính xác" 
+
   users:
     new: 
       sign_up: "Đăng ký"

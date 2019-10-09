@@ -40,6 +40,11 @@ en:
       Home1: "Home"
       Help1: "Help"
       Log_in: "Log in"
+      Users: "Users"
+      Account: "Account"
+      Profile: "Profile"
+      Settings: "Settings"
+      Log_out: "Log out"
 
     footer:
       About: "About"
@@ -48,6 +53,17 @@ en:
       infor: "The %{href3} by %{href4}"
       book: " Ruby on Rails Tutorial"
       author: "Michael Hartl"
+      
+  sessions:
+    new:
+      log_in: "Log In"
+      email: "email" 
+      password: "password"
+      New_user: "New user?"
+      sign_up: "Sign up now!"
+    create:
+      email_pass: "Invalid email/password combination"
+   
   users:
     new: 
       sign_up: "sign up"
@@ -66,3 +82,5 @@ en:
     error_messages:
       error: "error"
       the_form: "The form contains"
+
+

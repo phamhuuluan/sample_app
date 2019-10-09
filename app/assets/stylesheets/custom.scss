@@ -62,13 +62,13 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: $white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: $white;
     text-decoration: none;
   }
 }
@@ -123,11 +123,10 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
-
 #error_explanation {
-  color: red;
+  color: $red;
   ul {
-    color: red;
+    color:$red;
     margin: 0 0 30px;
   }
 }
