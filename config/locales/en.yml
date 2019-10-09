@@ -52,4 +52,8 @@ en:
     new: 
       sign_up: "sign up"
       p_signup: "This will be a signup page for new users."
-      
+      name : "name"
+      email: "email"
+      password: "password"
+      password_confirmation: "password_confirmation"
+      Create_account: "Create my account"

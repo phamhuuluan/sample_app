@@ -53,4 +53,8 @@ vi:
     new: 
       sign_up: "Đăng ký"
       p_signup: "Đây sẽ là một trang đăng ký cho người dùng mới."
-      
+      name : "Tên"
+      email: "E-mail"
+      password: "Mật khẩu "
+      password_confirmation: "Xác nhận mật khẩu"
+      Create_account: "Tạo tài khoản"
