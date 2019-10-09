@@ -49,3 +49,7 @@ vi:
       infor: "Hướng dẫn về %{href3} của %{href4}"
       book: " Ruby on Rails "
       author: "Michael Hartl"
+  users:
+    new: 
+      sign_up: "Đăng ký"
+      p_signup: "Đây sẽ là một trang đăng ký cho người dùng mới."     

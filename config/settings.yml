@@ -9,3 +9,9 @@ footer:
   michaelhartl: "http://www.michaelhartl.com/"
   news: "http://news.railstutorial.org/"
   
+models:
+  user:
+     namevalidates : "50"
+     emaillvalidates : "255"
+     passvalidates: "6"
+     email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
