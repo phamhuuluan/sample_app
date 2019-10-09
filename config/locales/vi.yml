@@ -53,3 +53,17 @@ vi:
     new: 
       sign_up: "Đăng ký"
       p_signup: "Đây sẽ là một trang đăng ký cho người dùng mới."     
+      name : "Tên"
+      email: "E-mail"
+      password: "Mật khẩu "
+      password_confirmation: "Xác nhận mật khẩu"
+      Create_account: "Tạo tài khoản"
+    create: 
+      Welcome: "chào mừng bạn đến với ứng dụng mẫu!"
+      error: "Lỗi tạo người dùng"
+    show:
+      no_user: "Không tìm thấy người dùng!"
+  shared:
+    error_messages:
+      error: "Lỗi"
+      the_form: "Biểu mẫu có chứa"
