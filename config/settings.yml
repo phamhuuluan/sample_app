@@ -11,7 +11,7 @@ footer:
   
 models:
   user:
-     namevalidates : "50"
-     emaillvalidates : "255"
-     passvalidates: "6"
+     namevalidates : 50
+     emaillvalidates : 255
+     passvalidates: 6
      email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

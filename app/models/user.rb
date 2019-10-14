@@ -1,7 +1,8 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.models.user.email_regex
   before_save :downcase
-  validraates :name, presence: true, length: {maximum: Settings.models.user.namevalidates}
+  
+  validates :name, presence: true, length: {maximum: Settings.models.user.namevalidates}
   validates :email, presence: true, length: {maximum: Settings.models.user.emaillvalidates},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
