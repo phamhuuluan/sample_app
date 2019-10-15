@@ -126,7 +126,7 @@ input {
 #error_explanation {
   color: $red;
   ul {
-    color:$red;
+    color: $red;
     margin: 0 0 30px;
   }
 }
@@ -137,3 +137,17 @@ input {
     color: $state-danger-text;
   }
 } 
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
