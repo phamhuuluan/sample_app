@@ -61,6 +61,7 @@ vi:
       password: "Mật Khẩu "
       New_user: "Nguời Dùng Mới"
       sign_up: "Đăng ký ngay!"
+      remember: "Nhớ trên trình duyệt"
     create:  
       email_pass: "Tài Khoản / Mật Khẩu không chính xác" 
 
