@@ -79,6 +79,28 @@ vi:
       error: "Lỗi tạo người dùng"
     show:
       no_user: "Không tìm thấy người dùng!"
+    update:
+      Profile_updated: "Hồ sơ cá nhân đã cập nhật"
+    logged_in_user:
+      logged_in_user: "Xin vui lòng đăng nhập."
+    destroy:
+      user_deleted: "Xóa người dùng"
+      not_deleted: "Lỗi xóa người dùng"
+    user: 
+      delete: "Xóa"
+      you_sure: "Bạn có chắc chắn?"
+    edit:
+      edit_user: "Sửa người dùng"
+      h1: "Cập nhật hồ sơ của bạn"
+      name: "tên"
+      email: "E-Maill"
+      password: "Mật Khẩu"
+      confirmation: "Xác Nhận"
+      save_changes: "Lưu Thay đổi"
+      change: "Thay đổi"
+    index:
+      all_users: "Tất cả người dùng"
+
   shared:
     error_messages:
       error: "Lỗi"
