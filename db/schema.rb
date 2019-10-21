@@ -19,10 +19,10 @@ ActiveRecord::Schema.define(version: 2019_10_21_180327) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
     t.string "remember_digest"
+    t.boolean "admin", default: false
     t.string "activation_digest"
     t.boolean "activated", default: false
     t.datetime "activated_at"
-    t.boolean "admin", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
