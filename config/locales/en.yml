@@ -79,9 +79,29 @@ en:
       error: "Error!"
     show:
       no_user: "users not foud!"
+    update:
+      Profile_updated: "Profile updated"
+    destroy:
+      user_deleted: "User deleted"
+      not_deleted: "Error deleted user"
+    user: 
+      delete: "delete"
+      you_sure: "You sure?"
+    edit:
+      edit_user: "Edit user"
+      h1: "Update your profile"
+      name: "name"
+      email: "email"
+      password: "password"
+      confirmation: "confirmation"
+      save_changes: "Save changes"
+      change: "change"
+    index:
+      all_users: "All users"
+      logged: "Please log in."
+
+
   shared:
     error_messages:
       error: "error"
       the_form: "The form contains"
-
-
