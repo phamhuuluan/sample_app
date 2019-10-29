@@ -64,6 +64,7 @@ vi:
       remember: "Nhớ trên trình duyệt"
     create:  
       email_pass: "Tài Khoản / Mật Khẩu không chính xác" 
+      message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt."
 
   users:
     new: 
@@ -75,6 +76,7 @@ vi:
       password_confirmation: "Xác nhận mật khẩu"
       Create_account: "Tạo tài khoản"
     create: 
+      check: "Please check your email to activate your account."
       Welcome: "chào mừng bạn đến với ứng dụng mẫu!"
       error: "Lỗi tạo người dùng"
     show:
@@ -89,6 +91,8 @@ vi:
     user: 
       delete: "Xóa"
       you_sure: "Bạn có chắc chắn?"
+      activated: "kích hoạt tài khoản"
+      invalid: "Không kích hoạt được tài khoản"
     edit:
       edit_user: "Sửa người dùng"
       h1: "Cập nhật hồ sơ của bạn"
@@ -105,3 +109,13 @@ vi:
     error_messages:
       error: "Lỗi"
       the_form: "Biểu mẫu có chứa"
+  user_mailer:
+    account_activation:
+      h1: "ứng dụng đơn giản"
+      hi: "xin chào"
+      welcome: "Chào mừng bạn đến với ứng dụng đơn giản ! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn: "
+  mailers:
+    user:
+      activate: "Kích hoạt"
+      account: "Kích hoạt tài khoản"
+      hi: "Xin Chào" 

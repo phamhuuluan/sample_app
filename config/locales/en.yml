@@ -64,7 +64,8 @@ en:
       remember: "Remember me on this computer"
     create:
       email_pass: "Invalid email/password combination"
-   
+      message: "Account not activated. Check your email for the activation link."
+
   users:
     new: 
       sign_up: "sign up"
@@ -75,6 +76,7 @@ en:
       password_confirmation: "password_confirmation"
       Create_account: "Create my account"
     create: 
+      check: "Please check your email to activate your account."
       Welcome: "Welcome to the Sample App!"
       error: "Error!"
     show:
@@ -87,6 +89,8 @@ en:
     user: 
       delete: "delete"
       you_sure: "You sure?"
+      activated: "Account Activated!"
+      invalid: "Invalid activation link"
     edit:
       edit_user: "Edit user"
       h1: "Update your profile"
@@ -105,3 +109,16 @@ en:
     error_messages:
       error: "error"
       the_form: "The form contains"
+  user_mailer:
+    account_activation:
+      h1: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account: "
+    password_reset: 
+      user: "User"
+  mailers:
+    user:
+      activate: "Activate"
+      account: "Account activation"
+      hi: "Hi"
+    
