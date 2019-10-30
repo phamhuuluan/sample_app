@@ -15,6 +15,7 @@ models:
     emaillvalidates : 255
     passvalidates: 6
     email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+    password_reset_expired: 2
 
 controllers:
   sessions:
@@ -34,5 +35,3 @@ helpers:
 views:
   users:
     gravatar_for_user: 50 
-    
-

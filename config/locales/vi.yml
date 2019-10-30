@@ -59,13 +59,14 @@ vi:
       log_in: "Đăng Nhập"
       email: "E-Mail" 
       password: "Mật Khẩu "
+      forgot: "(Quên mật khẩu)"
       New_user: "Nguời Dùng Mới"
       sign_up: "Đăng ký ngay!"
       remember: "Nhớ trên trình duyệt"
     create:  
       email_pass: "Tài Khoản / Mật Khẩu không chính xác" 
       message: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt."
-
+ 
   users:
     new: 
       sign_up: "Đăng ký"
@@ -76,7 +77,7 @@ vi:
       password_confirmation: "Xác nhận mật khẩu"
       Create_account: "Tạo tài khoản"
     create: 
-      check: "Please check your email to activate your account."
+      check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
       Welcome: "chào mừng bạn đến với ứng dụng mẫu!"
       error: "Lỗi tạo người dùng"
     show:
@@ -110,12 +111,35 @@ vi:
       error: "Lỗi"
       the_form: "Biểu mẫu có chứa"
   user_mailer:
-    account_activation:
-      h1: "ứng dụng đơn giản"
-      hi: "xin chào"
-      welcome: "Chào mừng bạn đến với ứng dụng đơn giản ! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn: "
-  mailers:
-    user:
-      activate: "Kích hoạt"
-      account: "Kích hoạt tài khoản"
-      hi: "Xin Chào" 
+    account_activations:
+      edit:
+        h1: "ứng dụng đơn giản"
+        hi: "xin chào"
+        welcome: "Chào mừng bạn đến với ứng dụng đơn giản ! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn: "
+        activated: "Kích hoạt"
+        account: "Kích hoạt tài khoản"
+        password_reset: "Làm mới mật khẩu"
+    password_resets:
+      password_resets: "Làm mới mật khẩu"
+      to_reset: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      this_link: "This link will expire in two hours."
+      if_you: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
+      
+  password_resets:
+    create: 
+      email_info: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      email_danger: "Không tìm thấy địa chỉ email"
+    new:
+      forgot_password: "Forgot password"
+      email: "E-Mail"
+      submit: "Gửi đi"
+    edit:
+      reset: "Làm mới mật khẩu"
+      password: "Mật Khẩu"
+      confirmation: "Xác Nhận"
+      update_password: "cập nhật mật khẩu"
+      pass_expired: "Đặt lại mật khẩu đã hết hạn."
+    update:
+      not_found: "Không tìm thấy người dùng"
+      email_empty: "không thể để trống"
+      email_success: "Mật khẩu đã được đặt lại."
