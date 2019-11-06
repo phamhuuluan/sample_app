@@ -4,6 +4,7 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
   before_save :downcase
+  has_many :microposts, dependent: :destroy
 
   VALID_EMAIL_REGEX = Settings.models.user.email_regex
 
@@ -50,7 +51,7 @@ class User < ApplicationRecord
   
   
   def send_activation_email
-    UserMailer.account_activupdate_attributes reset_digest: User.digest(reset_token), reset_sent_at: Time.nowation(self).deliver_now
+    UserMailer.account_activation(self).deliver_now  
   end
   
   def create_reset_digest
