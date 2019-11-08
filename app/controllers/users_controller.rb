@@ -26,6 +26,7 @@ class UsersController < ApplicationController
 
   def show 
     @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.page(params[:page]).per Settings.users.index.page
       
     return if @user 
     flash[:danger] =  t ".no_user"
@@ -42,13 +43,6 @@ class UsersController < ApplicationController
       render :edit
     end
   end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t".logged"
-    redirect_to login_url
-  end
   
   def destroy
     @user = User.find_by(id: params[:id]).destroy
@@ -61,22 +55,30 @@ class UsersController < ApplicationController
     end
   end 
 
+  def load_user
+    @user = User.find_by id: params[:id]
+  end
+
+  private
+
+  def user_params
+    params.require(:user).permit :name, :email, :password, :password_confirmation
+  end
+
   def correct_user
     @user = User.find_by id: params[:id]
     redirect_to(root_url) unless current_user?(@user)
   end
 
-  def load_user
-    @user = User.find_by id: params[:id]
-  end
-
   def admin_user
     redirect_to(root_url) unless current_user.admin?
   end
-  
-  private
 
-  def user_params
-    params.require(:user).permit :name, :email, :password, :password_confirmation
+  def find_user
+    @user = User.find_by id: params[:id]
+
+    return if @user
+    flash[:danger] = t ".not_found"
+    redirect_to root_url
   end
 end
