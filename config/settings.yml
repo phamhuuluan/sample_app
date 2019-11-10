@@ -25,13 +25,15 @@ models:
 controllers:
   sessions:
     params: 1
-    
+
 users:
   edit:
-    chane: "http://gravatar.com/emails"
+    change: "http://gravatar.com/emails"
   index:
     page: 10
     theme: "twitter-bootstrap-3"
+  show_follow:
+    size: 30
 helpers:
   users:
     gravatar_for: 80 
