@@ -16,7 +16,12 @@ models:
     passvalidates: 6
     email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
     password_reset_expired: 2
-
+  micropost:
+    valid_content: 140
+    size_mp: 50
+    mega_bytes: 5
+    size_in_megabytes: 5
+ 
 controllers:
   sessions:
     params: 1

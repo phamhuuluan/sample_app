@@ -23,8 +23,8 @@ class UsersController < ApplicationController
       render :new
     end
   end
-
-  def show 
+   
+  def show
     @user = User.find_by id: params[:id]
     @microposts = @user.microposts.page(params[:page]).per Settings.users.index.page
       

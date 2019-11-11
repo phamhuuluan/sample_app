@@ -157,6 +157,7 @@ en:
       create_micropost: "Micropost created!"
     destroy:
       delete_micropost: "Micropost deleted"
+      not_deleted: "Error deleted micropost"
     micropost:       
       delete: "Delete"
       you_sure: "You sure?"
