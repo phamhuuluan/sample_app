@@ -106,7 +106,14 @@ en:
       logged: "Please log in."
     find_user:
       not_found: "Not found users"
-   
+    follow: 
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    show_follow:
+      view: "view my profile"
+      micropost: "Microposts:"
+
   shared:
     error_messages:
       error: "error"
@@ -161,3 +168,7 @@ en:
     micropost:       
       delete: "Delete"
       you_sure: "You sure?"
+  followers: 
+    title: "Followers"
+  following:
+    title: "Following"
