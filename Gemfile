@@ -5,7 +5,7 @@ ruby "2.6.3"
 
 gem "rails", "~> 6.0.0"
 gem "bootstrap-sass", "3.3.7"
-gem "carrierwave", "1.2.2"
+gem "carrierwave", "1.3.2"
 gem "mini_magick", "4.7.0"
 gem "bcrypt","3.1.12"
 gem "rails-i18n"
